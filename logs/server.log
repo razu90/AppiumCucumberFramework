@@ -1,0 +1,55 @@
+2021-12-23 19:12:25:058 [Appium] Welcome to Appium v1.22.1
+2021-12-23 19:12:25:058 [Appium] Non-default server args:
+2021-12-23 19:12:25:059 [Appium]   logFile: F:\1.Project File\AppiumCucumberFramework\logs\server.log
+2021-12-23 19:12:25:076 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2021-12-23 19:12:25:499 [HTTP] --> GET /wd/hub/status
+2021-12-23 19:12:25:499 [HTTP] {}
+2021-12-23 19:12:25:500 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-12-23 19:12:25:501 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.1"}}
+2021-12-23 19:12:25:504 [HTTP] <-- GET /wd/hub/status 200 4 ms - 68
+2021-12-23 19:12:25:504 [HTTP] 
+2021-12-23 19:12:25:510 [HTTP] --> GET /wd/hub/status
+2021-12-23 19:12:25:510 [HTTP] {}
+2021-12-23 19:12:25:510 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-12-23 19:12:25:510 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.1"}}
+2021-12-23 19:12:25:511 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2021-12-23 19:12:25:511 [HTTP] 
+2021-12-23 19:12:25:924 [HTTP] Request idempotency key: e5cc5d00-106e-4a53-8431-38172ba0407c
+2021-12-23 19:12:25:932 [HTTP] --> POST /wd/hub/session
+2021-12-23 19:12:25:932 [HTTP] {"desiredCapabilities":{"appActivity":"com.swaglabsmobileapp.MainActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","platformName":"Android","udid":"emulator-5554","deviceName":"Pixel5"},"capabilities":{"firstMatch":[{"appium:appActivity":"com.swaglabsmobileapp.MainActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","appium:deviceName":"Pixel5","platformName":"android","appium:udid":"emulator-5554"}]}}
+2021-12-23 19:12:25:932 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":"com.swaglabsmobileapp.MainActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","platformName":"Android","udid":"emulator-5554","deviceName":"Pixel5"},null,{"firstMatch":[{"appium:appActivity":"com.swaglabsmobileapp.MainActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","appium:deviceName":"Pixel5","platformName":"android","appium:udid":"emulator-5554"}]}]
+2021-12-23 19:12:25:933 [BaseDriver] Event 'newSessionRequested' logged at 1640286745932 (14:12:25 GMT-0500 (Eastern Standard Time))
+2021-12-23 19:12:26:059 [Appium] Appium v1.22.1 creating new AndroidUiautomator2Driver (v1.70.1) session
+2021-12-23 19:12:26:061 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2021-12-23 19:12:26:061 [BaseDriver] Creating session with W3C capabilities: {
+2021-12-23 19:12:26:061 [BaseDriver]   "alwaysMatch": {
+2021-12-23 19:12:26:061 [BaseDriver]     "platformName": "android",
+2021-12-23 19:12:26:061 [BaseDriver]     "appium:appActivity": "com.swaglabsmobileapp.MainActivity",
+2021-12-23 19:12:26:061 [BaseDriver]     "appium:appPackage": "com.swaglabsmobileapp",
+2021-12-23 19:12:26:061 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2021-12-23 19:12:26:061 [BaseDriver]     "appium:deviceName": "Pixel5",
+2021-12-23 19:12:26:061 [BaseDriver]     "appium:udid": "emulator-5554"
+2021-12-23 19:12:26:061 [BaseDriver]   },
+2021-12-23 19:12:26:061 [BaseDriver]   "firstMatch": [
+2021-12-23 19:12:26:062 [BaseDriver]     {}
+2021-12-23 19:12:26:062 [BaseDriver]   ]
+2021-12-23 19:12:26:062 [BaseDriver] }
+2021-12-23 19:12:26:065 [BaseDriver] Session created with session id: 883c2a10-8a43-4419-91b4-07ab59bed4e7
+2021-12-23 19:12:26:065 [UiAutomator2] Starting 'com.swaglabsmobileapp' directly on the device
+2021-12-23 19:12:26:070 [ADB] Found 1 'build-tools' folders under 'C:\Users\ahmed\AppData\Local\Android\Sdk' (newest first):
+2021-12-23 19:12:26:070 [ADB]     C:/Users/ahmed/AppData/Local/Android/Sdk/build-tools/32.0.0
+2021-12-23 19:12:26:070 [ADB] Using 'adb.exe' from 'C:\Users\ahmed\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2021-12-23 19:12:26:070 [ADB] Running 'C:\Users\ahmed\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2021-12-23 19:12:26:083 [AndroidDriver] Retrieving device list
+2021-12-23 19:12:26:083 [ADB] Trying to find a connected android device
+2021-12-23 19:12:26:083 [ADB] Getting connected devices
+2021-12-23 19:12:26:094 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2021-12-23 19:12:26:094 [AndroidDriver] Using device: emulator-5554
+2021-12-23 19:12:26:095 [ADB] Using 'adb.exe' from 'C:\Users\ahmed\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2021-12-23 19:12:26:095 [ADB] Running 'C:\Users\ahmed\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2021-12-23 19:12:26:106 [ADB] Setting device id to emulator-5554
+2021-12-23 19:12:26:106 [ADB] Running 'C:\Users\ahmed\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2021-12-23 19:12:26:133 [ADB] Current device property 'ro.build.version.sdk': 30
+2021-12-23 19:12:26:133 [ADB] Getting device platform version
+2021-12-23 19:12:26:133 [ADB] Running 'C:\Users\ahmed\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2021-12-23 19:12:26:151 [ADB] Current device property 'ro.build.version.release': 11
